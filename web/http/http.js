@@ -11,5 +11,5 @@ server.on('request', (req, res) => {
   }, 1000)
 })
 
-server.timeout = 10000
+server.timeout = 10000 // default is 2 min, now it is is 10 sec
 server.listen(8000)
